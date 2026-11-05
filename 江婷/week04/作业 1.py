@@ -14,7 +14,7 @@ import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 
 
-# ─────────────────────────── 数据 ───────────────────────────
+# ─────────────────────────── 数据 ───────────────────────────——
 def load_corpus(pattern="*.txt"):
     texts = []
     for path in glob.glob(pattern):
